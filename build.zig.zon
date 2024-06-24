@@ -1,0 +1,15 @@
+.{
+    .name = "min-raylib",
+    .version = "0.0.0",
+    .paths = .{""},
+    .dependencies = .{
+        .raylib = .{
+            .url = "https://github.com/raysan5/raylib/archive/52f2a10db610d0e9f619fd7c521db08a876547d0.tar.gz",
+            .hash = "122078ad3e79fb83b45b04bd30fb63aaf936c6774db60095bc6987d325cbe5743373",
+        },
+        .raygui = .{
+            .url = "https://github.com/raysan5/raygui/archive/0f832e6a6edfa77a93c327617468b15755cb05ce.tar.gz",
+            .hash = "1220c62ef63613b8cb2893748d6baa344cd2d994328fbf3fe7559bec00a144c991e5",
+        },
+    },
+}
