@@ -1,8 +1,6 @@
 const std = @import("std");
 
-const rl = @cImport({
-    @cInclude("raylib.h");
-});
+const rl = @import("raylib.zig");
 
 pub fn main() void
 {
